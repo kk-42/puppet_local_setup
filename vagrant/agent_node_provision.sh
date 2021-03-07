@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo hostnamectl set-hostname puppetclient
 apt-get update -y
 apt-get install puppet-agent -y
 
